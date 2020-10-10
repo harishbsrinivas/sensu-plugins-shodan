@@ -5,12 +5,13 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    json (1.8.3)
+    json (2.3.0)
     mixlib-cli (1.6.0)
     multipart-post (2.0.0)
     sensu-plugin (1.2.0)
       json
       mixlib-cli (>= 1.1.0)
+    yaml (0.1.0)
 
 PLATFORMS
   ruby
@@ -20,6 +21,7 @@ DEPENDENCIES
   faraday_middleware
   json
   sensu-plugin
+  yaml
 
 BUNDLED WITH
    1.10.6
